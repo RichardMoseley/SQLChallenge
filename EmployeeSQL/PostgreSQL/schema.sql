@@ -36,7 +36,7 @@ CREATE TABLE "employees" (
 
 CREATE TABLE "salaries" (
     "emp_no" VARCHAR(20)   NOT NULL,
-    "salary" (10)   NOT NULL
+    "salary" VARCHAR(10)   NOT NULL
 );
 
 ALTER TABLE "dept_emp" ADD CONSTRAINT "fk_dept_emp_emp_no" FOREIGN KEY("emp_no")
